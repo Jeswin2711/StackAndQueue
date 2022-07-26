@@ -11,6 +11,12 @@ public class StackMain
         operations.push(70);
         operations.push(30);
         operations.push(56);
+        System.out.println("\nInserted Elements");
+        operations.printData();
+        System.out.println("\nBefore Popping All");
+        operations.printData();
+        operations.popAll();
+        System.out.println("\nAfter Popping All");
         operations.printData();
     }
 }
