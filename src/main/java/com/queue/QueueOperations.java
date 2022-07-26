@@ -34,5 +34,13 @@ public class QueueOperations
             temp = temp.getNodeNext();
         }
     }
+
+    /* Pop method to pop the first Element of a Linked List */
+
+    public Object deQueue() {
+    Object value = head.getNodeData();
+    head = head.getNodeNext();
+    return value;
+}
 }
 
