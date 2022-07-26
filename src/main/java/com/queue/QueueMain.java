@@ -1,4 +1,16 @@
 package com.queue;
 
-public class QueueMain {
+public class QueueMain
+{
+    public static void main(String[] args) {
+
+        /*
+        Adding Elements to a Queue
+         */
+        QueueOperations queue = new QueueOperations();
+        queue.append(56);
+        queue.append(30);
+        queue.append(70);
+        queue.printData();
+    }
 }
