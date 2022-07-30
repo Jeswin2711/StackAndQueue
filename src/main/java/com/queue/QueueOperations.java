@@ -37,7 +37,7 @@ public class QueueOperations
 
     /* Pop method to pop the first Element of a Linked List */
 
-    public Object deQueue() {
+    public Object popQueue() {
     Object value = head.getNodeData();
     head = head.getNodeNext();
     return value;
