@@ -12,7 +12,7 @@ public class QueueMain
         queue.append(30);
         queue.append(70);
         queue.printData();
-        Object value = queue.deQueue();
+        Object value = queue.popQueue();
         System.out.println("Dequeued Value " +  value);
 
     }
